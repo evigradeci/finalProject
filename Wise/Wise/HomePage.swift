@@ -15,7 +15,10 @@ class HomePage: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func serenaArticle(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string:"https://todaytrendingpost.com/web-stories/serena-williams-attends-the-weeknds-concert-in-washington-d-c/")! as URL, options: [:],completionHandler: nil)
+    }
+    
     /*
     // MARK: - Navigation
 
